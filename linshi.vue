@@ -3,7 +3,7 @@
         <div>这是推荐的页面</div>
         <div class="block-padding">
             <div class="title">
-                <h3>{{ title }}</h3>
+                <h3>{{ title }} 2. 这是在行内的修改！</h3>
             </div> 
             <div class="list clearfix i"  v-for="(item,index) in musiclist"   :key="index"    >
                 <!-- <router-link
